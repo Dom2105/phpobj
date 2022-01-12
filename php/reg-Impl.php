@@ -9,7 +9,7 @@ if (isset($_POST["name"])) {
     $k->setName($_POST["name"]);
 }
 
-if (empty($k->getEmail() == false)) {
+if (empty($k->getEmail()) == false) {
     $k->registerDB();
 }
 

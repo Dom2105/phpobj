@@ -20,6 +20,9 @@ echo "<nav class='navbar navbar-expand-lg navbar-light bg-light'>
             <li class='nav-item'>
                 <a class='nav-link' href='./artikel.php'>Artikel</a>
             </li>
+            <li class='nav-item'>
+                <a class='nav-link' href='./artikelanlegen.php'>Artikel anlegen</a>
+            </li>
         </ul>
     </div>
 </div>

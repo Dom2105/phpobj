@@ -1,0 +1,10 @@
+[user]
+	email = Domi.rittig@gmail.com
+	name = Dom2105
+[credential "https://gitlab.com"]
+	provider = generic
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
